@@ -1,0 +1,42 @@
+.calculator{
+    background-color: gray;
+    border-radius: 5%;
+    height: 80vh;
+    width: 70vh;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.screen{
+    background-color: green;
+    height: 20vh;
+}
+.panel{
+    display: grid;
+    grid-template-columns: 12vh 12vh 12vh 12vh 12vh;
+    grid-template-rows:    10vh 10vh 10vh 10vh;
+    align-content: center;
+    padding-left: 5vh;
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    background-color: #31312c;
+    margin-top: 5vh;
+    height: 52vh;
+}
+.number{
+    background-color: black;
+    color: orange;
+    margin: 5px;
+    text-align: center;
+    padding-top: 15px;
+}
+.number_large{
+    background-color: black;
+    color: orange;
+    margin: 5px;
+    width: 10.4vh;
+    height: 11.6vh;
+    text-align: center;
+    padding-top: 40px;
+
+}
